@@ -1,0 +1,26 @@
+// Flip-Wave
+$flip-offset: -16px;
+$flip-count: 20;
+$flip-duration: 4;
+
+@for $i from 0 to $flip-count {
+  @keyframes flip-wave-#{$i} {
+    #{($i * 5) + 5 }% {
+      -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    }
+    #{($i * 5) + 10 }% {
+      -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    }
+  }
+
+  .text-wave.flip :nth-child( #{$flip-count}n + #{$i} ) {
+    display: inline-block;
+    -webkit-animation-duration: #{$flip-duration}s;
+    -webkit-animation-name: flip-wave-#{$i};
+    -webkit-animation-iteration-count: infinite;
+  }
+
+}
