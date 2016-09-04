@@ -1,11 +1,15 @@
 # txt.wav
 
-some weird text animations the internet deserves. true freaks only
+some weird text animations the internet deserves.
+
+check out the [demos](http://wwww.stilllife.studio/txtwav)
 
 ## basic usage
 
-1. include the `css` and `js` files in the `dist` folder.
-2. add the class `text-wave` to another element you want to animate.
+1. include the `css` and `js` files from the `dist` folder.
+
+2. add the class `txtwav` to another element you want to animate.
+
 3. add the class for the specific animation you want to include from the
 following:
 
@@ -16,7 +20,7 @@ following:
 
 full example:
 ```html
-<h1 class="text-wave slow">true freaks only</h1>
+<h1 class="txtwav slow">true freaks only</h1>
 ```
 
 ## about Still Life Studios
@@ -24,13 +28,13 @@ full example:
 ![still life studio
 logo](http://www.stilllife.studio/images/still_life_logo.png)
 
-txtwav is maintained by Still Life Studios. 
+txt.wav is maintained by Still Life Studios. 
 
 we love open source software. see our other
-[projects](http://www.stilllife.studio#work?utm_source=github) or [hire
-us](http://www.stilllife.studio#contact?utm_source=github) to design, develop, and grow your product.
+[projects](http://www.stilllife.studio/?utm_source=github#work) or [hire
+us](http://www.stilllife.studio/?utm_source=github#contact) to design and develop your product.
 
 
 ## license
-txtwav is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+txt.wav is licensed under the MIT license. (http://opensource.org/licenses/MIT)
 

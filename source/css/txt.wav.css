@@ -1,381 +1,381 @@
 @keyframes flip-wave-0 {
   5% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   10% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 0) {
+.txtwav.flip :nth-child(20n + 0) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-0;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-0;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-1 {
   10% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   15% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 1) {
+.txtwav.flip :nth-child(20n + 1) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-1;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-1;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-2 {
   15% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   20% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 2) {
+.txtwav.flip :nth-child(20n + 2) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-2;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-2;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-3 {
   20% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   25% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 3) {
+.txtwav.flip :nth-child(20n + 3) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-3;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-3;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-4 {
   25% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   30% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 4) {
+.txtwav.flip :nth-child(20n + 4) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-4;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-4;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-5 {
   30% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   35% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 5) {
+.txtwav.flip :nth-child(20n + 5) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-5;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-5;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-6 {
   35% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   40% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 6) {
+.txtwav.flip :nth-child(20n + 6) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-6;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-6;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-7 {
   40% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   45% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 7) {
+.txtwav.flip :nth-child(20n + 7) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-7;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-7;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-8 {
   45% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   50% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 8) {
+.txtwav.flip :nth-child(20n + 8) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-8;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-8;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-9 {
   50% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   55% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 9) {
+.txtwav.flip :nth-child(20n + 9) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-9;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-9;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-10 {
   55% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   60% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 10) {
+.txtwav.flip :nth-child(20n + 10) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-10;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-10;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-11 {
   60% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   65% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 11) {
+.txtwav.flip :nth-child(20n + 11) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-11;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-11;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-12 {
   65% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   70% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 12) {
+.txtwav.flip :nth-child(20n + 12) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-12;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-12;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-13 {
   70% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   75% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 13) {
+.txtwav.flip :nth-child(20n + 13) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-13;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-13;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-14 {
   75% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   80% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 14) {
+.txtwav.flip :nth-child(20n + 14) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-14;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-14;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-15 {
   80% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   85% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 15) {
+.txtwav.flip :nth-child(20n + 15) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-15;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-15;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-16 {
   85% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   90% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 16) {
+.txtwav.flip :nth-child(20n + 16) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-16;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-16;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-17 {
   90% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   95% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 17) {
+.txtwav.flip :nth-child(20n + 17) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-17;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-17;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-18 {
   95% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 18) {
+.txtwav.flip :nth-child(20n + 18) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-18;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-18;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flip-wave-19 {
   100% {
-    -webkit-transform: translate3d(0, -16px, 0) rotate(720deg);
+    transform: translate3d(0, -16px, 0) rotate(720deg);
   }
   105% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) rotate(720deg);
+    transform: translate3d(0, 0, 0) rotate(720deg);
   }
 }
 /* line 19, ../sass/_flip.scss */
-.text-wave.flip :nth-child(20n + 19) {
+.txtwav.flip :nth-child(20n + 19) {
   display: inline-block;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-name: flip-wave-19;
-  -webkit-animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: flip-wave-19;
+  animation-iteration-count: infinite;
 }
 
 @keyframes slow-wave {
@@ -387,7 +387,7 @@
   }
 }
 /* line 17, ../sass/txt.wav.scss */
-.text-wave.slow span {
+.txtwav.slow span {
   display: inline-block;
   animation-duration: 3s;
   animation-name: slow-wave;
@@ -396,127 +396,127 @@
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 0) {
+.txtwav.slow :nth-child(25n + 0) {
   animation-delay: -6s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 1) {
+.txtwav.slow :nth-child(25n + 1) {
   animation-delay: -5.76s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 2) {
+.txtwav.slow :nth-child(25n + 2) {
   animation-delay: -5.52s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 3) {
+.txtwav.slow :nth-child(25n + 3) {
   animation-delay: -5.28s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 4) {
+.txtwav.slow :nth-child(25n + 4) {
   animation-delay: -5.04s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 5) {
+.txtwav.slow :nth-child(25n + 5) {
   animation-delay: -4.8s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 6) {
+.txtwav.slow :nth-child(25n + 6) {
   animation-delay: -4.56s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 7) {
+.txtwav.slow :nth-child(25n + 7) {
   animation-delay: -4.32s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 8) {
+.txtwav.slow :nth-child(25n + 8) {
   animation-delay: -4.08s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 9) {
+.txtwav.slow :nth-child(25n + 9) {
   animation-delay: -3.84s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 10) {
+.txtwav.slow :nth-child(25n + 10) {
   animation-delay: -3.6s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 11) {
+.txtwav.slow :nth-child(25n + 11) {
   animation-delay: -3.36s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 12) {
+.txtwav.slow :nth-child(25n + 12) {
   animation-delay: -3.12s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 13) {
+.txtwav.slow :nth-child(25n + 13) {
   animation-delay: -2.88s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 14) {
+.txtwav.slow :nth-child(25n + 14) {
   animation-delay: -2.64s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 15) {
+.txtwav.slow :nth-child(25n + 15) {
   animation-delay: -2.4s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 16) {
+.txtwav.slow :nth-child(25n + 16) {
   animation-delay: -2.16s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 17) {
+.txtwav.slow :nth-child(25n + 17) {
   animation-delay: -1.92s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 18) {
+.txtwav.slow :nth-child(25n + 18) {
   animation-delay: -1.68s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 19) {
+.txtwav.slow :nth-child(25n + 19) {
   animation-delay: -1.44s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 20) {
+.txtwav.slow :nth-child(25n + 20) {
   animation-delay: -1.2s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 21) {
+.txtwav.slow :nth-child(25n + 21) {
   animation-delay: -0.96s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 22) {
+.txtwav.slow :nth-child(25n + 22) {
   animation-delay: -0.72s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 23) {
+.txtwav.slow :nth-child(25n + 23) {
   animation-delay: -0.48s;
 }
 
 /* line 26, ../sass/txt.wav.scss */
-.text-wave.slow :nth-child(25n + 24) {
+.txtwav.slow :nth-child(25n + 24) {
   animation-delay: -0.24s;
 }
 
@@ -529,7 +529,7 @@
   }
 }
 /* line 45, ../sass/txt.wav.scss */
-.text-wave.bounce span {
+.txtwav.bounce span {
   display: inline-block;
   animation-duration: 0.3s;
   animation-name: bounce-wave;
@@ -538,127 +538,127 @@
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 0) {
+.txtwav.bounce :nth-child(25n + 0) {
   animation-delay: -0.6s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 1) {
+.txtwav.bounce :nth-child(25n + 1) {
   animation-delay: -0.576s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 2) {
+.txtwav.bounce :nth-child(25n + 2) {
   animation-delay: -0.552s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 3) {
+.txtwav.bounce :nth-child(25n + 3) {
   animation-delay: -0.528s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 4) {
+.txtwav.bounce :nth-child(25n + 4) {
   animation-delay: -0.504s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 5) {
+.txtwav.bounce :nth-child(25n + 5) {
   animation-delay: -0.48s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 6) {
+.txtwav.bounce :nth-child(25n + 6) {
   animation-delay: -0.456s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 7) {
+.txtwav.bounce :nth-child(25n + 7) {
   animation-delay: -0.432s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 8) {
+.txtwav.bounce :nth-child(25n + 8) {
   animation-delay: -0.408s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 9) {
+.txtwav.bounce :nth-child(25n + 9) {
   animation-delay: -0.384s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 10) {
+.txtwav.bounce :nth-child(25n + 10) {
   animation-delay: -0.36s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 11) {
+.txtwav.bounce :nth-child(25n + 11) {
   animation-delay: -0.336s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 12) {
+.txtwav.bounce :nth-child(25n + 12) {
   animation-delay: -0.312s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 13) {
+.txtwav.bounce :nth-child(25n + 13) {
   animation-delay: -0.288s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 14) {
+.txtwav.bounce :nth-child(25n + 14) {
   animation-delay: -0.264s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 15) {
+.txtwav.bounce :nth-child(25n + 15) {
   animation-delay: -0.24s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 16) {
+.txtwav.bounce :nth-child(25n + 16) {
   animation-delay: -0.216s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 17) {
+.txtwav.bounce :nth-child(25n + 17) {
   animation-delay: -0.192s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 18) {
+.txtwav.bounce :nth-child(25n + 18) {
   animation-delay: -0.168s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 19) {
+.txtwav.bounce :nth-child(25n + 19) {
   animation-delay: -0.144s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 20) {
+.txtwav.bounce :nth-child(25n + 20) {
   animation-delay: -0.12s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 21) {
+.txtwav.bounce :nth-child(25n + 21) {
   animation-delay: -0.096s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 22) {
+.txtwav.bounce :nth-child(25n + 22) {
   animation-delay: -0.072s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 23) {
+.txtwav.bounce :nth-child(25n + 23) {
   animation-delay: -0.048s;
 }
 
 /* line 54, ../sass/txt.wav.scss */
-.text-wave.bounce :nth-child(25n + 24) {
+.txtwav.bounce :nth-child(25n + 24) {
   animation-delay: -0.024s;
 }
 
@@ -671,7 +671,7 @@
   }
 }
 /* line 73, ../sass/txt.wav.scss */
-.text-wave.vibe span {
+.txtwav.vibe span {
   display: inline-block;
   animation-duration: 0.08s;
   animation-name: vibe-wave;
@@ -680,51 +680,51 @@
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 0) {
+.txtwav.vibe :nth-child(10n + 0) {
   animation-delay: -0.16s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 1) {
+.txtwav.vibe :nth-child(10n + 1) {
   animation-delay: -0.144s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 2) {
+.txtwav.vibe :nth-child(10n + 2) {
   animation-delay: -0.128s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 3) {
+.txtwav.vibe :nth-child(10n + 3) {
   animation-delay: -0.112s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 4) {
+.txtwav.vibe :nth-child(10n + 4) {
   animation-delay: -0.096s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 5) {
+.txtwav.vibe :nth-child(10n + 5) {
   animation-delay: -0.08s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 6) {
+.txtwav.vibe :nth-child(10n + 6) {
   animation-delay: -0.064s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 7) {
+.txtwav.vibe :nth-child(10n + 7) {
   animation-delay: -0.048s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 8) {
+.txtwav.vibe :nth-child(10n + 8) {
   animation-delay: -0.032s;
 }
 
 /* line 82, ../sass/txt.wav.scss */
-.text-wave.vibe :nth-child(10n + 9) {
+.txtwav.vibe :nth-child(10n + 9) {
   animation-delay: -0.016s;
 }

@@ -1,9 +1,9 @@
 (function() {
-  var textWaveElements = document.getElementsByClassName('text-wave');
+  var textWaveElements = document.getElementsByClassName('txtwav');
 
   for (var i = 0, length = textWaveElements.length; i < length; i++) {
     var el = textWaveElements[i];
-    var text = el.outerText;
+    var text = el.textContent.trim();
 
     el.innerHTML = null;
     spanWrapHelper(el, text);
