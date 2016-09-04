@@ -2,7 +2,7 @@
 
 some weird text animations the internet deserves.
 
-check out the [demos](http://wwww.stilllife.studio/txtwav)
+check out the [demos](http://www.stilllife.studio/txtwav?utm_source=github)
 
 ## basic usage
 
