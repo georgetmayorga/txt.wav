@@ -1,0 +1,35 @@
+{
+  "name": "txt.wav",
+  "version": "1.0.1",
+  "description": "Text animation library",
+  "main": "dist/js/txt.wav.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Compiling SCSS to CSS\" && node-sass --include-path scss src/scss/txt.wav.scss dist/css/txt.wav.css && echo \"Minifying CSS\" && cleancss -o dist/css/txt.wav.min.css dist/css/txt.wav.css && echo \"Minifying and Uglifying JS\" && uglifyjs --compress --mangle --output dist/js/txt.wav.min.js src/js/txt.wav.js && cp src/js/txt.wav.js dist/js/txt.wav.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/still-life-studios/txt.wav.git"
+  },
+  "keywords": [
+    "text",
+    "animation",
+    "css",
+    "weirdos"
+  ],
+  "author": "Still Life Studios <hello@stilllife.studio> (https://www.stilllife.studio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/still-life-studios/txt.wav/issues"
+  },
+  "homepage": "https://www.stilllife.studio/txtwav",
+  "devDependencies": {
+    "clean-css": "^3.4.19",
+    "node-sass": "^3.9.0",
+    "uglify-js": "^2.7.3"
+  }
+}

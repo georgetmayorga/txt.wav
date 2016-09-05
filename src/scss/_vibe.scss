@@ -1,0 +1,27 @@
+// Vibe-Wave
+$vibe-offset : 4px;
+$vibe-count : 10;
+$vibe-duration : 0.08;
+
+@keyframes vibe-wave {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY( $vibe-offset );
+  }
+}
+
+.txtwav.vibe span {
+  display: inline-block;
+  animation-duration: #{$vibe-duration}s;
+  animation-name: vibe-wave;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@for $i from 0 to $vibe-count {
+  .txtwav.vibe :nth-child( #{$vibe-count}n + #{$i} ) {
+      animation-delay : -#{($vibe-count - $i) * 2 * $vibe-duration / $vibe-count }s;
+  }
+}

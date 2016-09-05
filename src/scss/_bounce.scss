@@ -1,0 +1,27 @@
+// Bounce-Wave
+$bounce-offset : -10px;
+$bounce-count : 25;
+$bounce-duration : 0.3;
+
+@keyframes bounce-wave {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY( $bounce-offset );
+  }
+}
+
+.txtwav.bounce span {
+  display: inline-block;
+  animation-duration: #{$bounce-duration}s;
+  animation-name: bounce-wave;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@for $i from 0 to $bounce-count {
+  .txtwav.bounce :nth-child( #{$bounce-count}n + #{$i} ) {
+      animation-delay : -#{($bounce-count - $i) * 2 * $bounce-duration / $bounce-count }s;
+  }
+}
