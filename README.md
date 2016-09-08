@@ -1,7 +1,7 @@
 # txt.wav
 
-[![Code Climate](https://codeclimate.com/github/still-life-studios/txt.wav/badges/gpa.svg)]
-[![npm version](https://badge.fury.io/js/txt.wav.svg)]
+![npm version](https://badge.fury.io/js/txt.wav.svg)
+![Code Climate](https://codeclimate.com/github/still-life-studios/txt.wav/badges/gpa.svg)
 
 some weird text animations the internet deserves.
 
