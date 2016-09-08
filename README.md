@@ -4,11 +4,21 @@ some weird text animations the internet deserves.
 
 check out the [demos](http://www.stilllife.studio/txtwav?utm_source=github)
 
+#### NPM
+
+```
+npm install --save txt.wav
+```
+
+#### CDN
+
+_Coming Soon_
+
 ## basic usage
 
 1. include the `css` and `js` files from the `dist` folder.
 
-2. add the class `txtwav` to another element you want to animate.
+2. add the class `txtwav` to an element you want to animate.
 
 3. add the class for the specific animation you want to include from the
 following:
