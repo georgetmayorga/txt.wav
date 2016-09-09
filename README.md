@@ -15,7 +15,7 @@ npm install --save txt.wav
 
 #### CDN
 
-_Coming Soon_
+See [https://cdnjs.com/libraries/txt.wav](https://cdnjs.com/libraries/txt.wav)
 
 ## basic usage
 
