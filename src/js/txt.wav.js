@@ -5,15 +5,15 @@
     var el = textWaveElements[i],
       text = el.textContent.trim();
 
-    el.innerHTML = null;
+    el.innerHTML = '';
     spanWrapHelper(el, text);
   }
 
   function spanWrapHelper(el, text) {
-    for(var i in text) {
+    for(var i = 0; i < text.length; i++) {
       var span = document.createElement('span');
       span.innerHTML = text[i] === " " ? "&nbsp;" : text[i];
       el.appendChild(span);
     }
   }
-})();
+}());

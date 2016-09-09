@@ -5,22 +5,24 @@ $flip-duration: 4;
 
 @for $i from 0 to $flip-count {
   @keyframes flip-wave-#{$i} {
-    #{($i * 5) + 5 }% {
+    #{($i * 5) + 5}% {
       transform: translate3d(0, -16px, 0) rotate(720deg);
     }
-    #{($i * 5) + 10 }% {
+
+    #{($i * 5) + 10}% {
       transform: translate3d(0, 0, 0) rotate(720deg);
     }
+
     100% {
       transform: translate3d(0, 0, 0) rotate(720deg);
     }
   }
 
   .txtwav.flip :nth-child( #{$flip-count}n + #{$i} ) {
-    display: inline-block;
     animation-duration: #{$flip-duration}s;
-    animation-name: flip-wave-#{$i};
     animation-iteration-count: infinite;
+    animation-name: flip-wave-#{$i};
+    display: inline-block;
   }
 
 }

@@ -1,27 +1,28 @@
 // Slow-Wave
-$slow-offset : -10px;
-$slow-count : 25;
-$slow-duration : 3;
+$slow-offset: -10px;
+$slow-count: 25;
+$slow-duration: 3;
 
 @keyframes slow-wave {
   from {
     transform: translateY(0);
   }
+
   to {
-    transform: translateY( $slow-offset );
+    transform: translateY($slow-offset);
   }
 }
 
 .txtwav.slow span {
-  display: inline-block;
-  animation-duration: #{$slow-duration}s;
-  animation-name: slow-wave;
-  animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-duration: #{$slow-duration}s;
+  animation-iteration-count: infinite;
+  animation-name: slow-wave;
+  display: inline-block;
 }
 
 @for $i from 0 to $slow-count {
   .txtwav.slow :nth-child( #{$slow-count}n + #{$i} ) {
-      animation-delay : -#{($slow-count - $i) * 2 * $slow-duration / $slow-count }s;
+    animation-delay: -#{($slow-count - $i) * 2 * $slow-duration / $slow-count }s;
   }
 }

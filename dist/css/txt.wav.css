@@ -5,11 +5,11 @@
     transform: translateY(-10px); } }
 
 .txtwav.slow span {
-  display: inline-block;
+  animation-direction: alternate;
   animation-duration: 3s;
-  animation-name: slow-wave;
   animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  animation-name: slow-wave;
+  display: inline-block; }
 
 .txtwav.slow :nth-child(25n + 0) {
   animation-delay: -6s; }
@@ -93,11 +93,11 @@
     transform: translateY(-10px); } }
 
 .txtwav.bounce span {
-  display: inline-block;
+  animation-direction: alternate;
   animation-duration: 0.3s;
-  animation-name: bounce-wave;
   animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  animation-name: bounce-wave;
+  display: inline-block; }
 
 .txtwav.bounce :nth-child(25n + 0) {
   animation-delay: -0.6s; }
@@ -181,11 +181,11 @@
     transform: translateY(4px); } }
 
 .txtwav.vibe span {
-  display: inline-block;
+  animation-direction: alternate;
   animation-duration: 0.08s;
-  animation-name: vibe-wave;
   animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  animation-name: vibe-wave;
+  display: inline-block; }
 
 .txtwav.vibe :nth-child(10n + 0) {
   animation-delay: -0.16s; }
@@ -226,10 +226,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 0) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-0;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-1 {
   10% {
@@ -240,10 +240,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 1) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-1;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-2 {
   15% {
@@ -254,10 +254,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 2) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-2;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-3 {
   20% {
@@ -268,10 +268,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 3) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-3;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-4 {
   25% {
@@ -282,10 +282,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 4) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-4;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-5 {
   30% {
@@ -296,10 +296,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 5) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-5;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-6 {
   35% {
@@ -310,10 +310,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 6) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-6;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-7 {
   40% {
@@ -324,10 +324,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 7) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-7;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-8 {
   45% {
@@ -338,10 +338,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 8) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-8;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-9 {
   50% {
@@ -352,10 +352,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 9) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-9;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-10 {
   55% {
@@ -366,10 +366,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 10) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-10;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-11 {
   60% {
@@ -380,10 +380,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 11) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-11;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-12 {
   65% {
@@ -394,10 +394,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 12) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-12;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-13 {
   70% {
@@ -408,10 +408,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 13) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-13;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-14 {
   75% {
@@ -422,10 +422,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 14) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-14;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-15 {
   80% {
@@ -436,10 +436,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 15) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-15;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-16 {
   85% {
@@ -450,10 +450,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 16) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-16;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-17 {
   90% {
@@ -464,10 +464,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 17) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-17;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-18 {
   95% {
@@ -478,10 +478,10 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 18) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-18;
-  animation-iteration-count: infinite; }
+  display: inline-block; }
 
 @keyframes flip-wave-19 {
   100% {
@@ -492,7 +492,7 @@
     transform: translate3d(0, 0, 0) rotate(720deg); } }
 
 .txtwav.flip :nth-child(20n + 19) {
-  display: inline-block;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-name: flip-wave-19;
-  animation-iteration-count: infinite; }
+  display: inline-block; }

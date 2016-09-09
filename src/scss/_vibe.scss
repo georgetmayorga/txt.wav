@@ -1,27 +1,28 @@
 // Vibe-Wave
-$vibe-offset : 4px;
-$vibe-count : 10;
-$vibe-duration : 0.08;
+$vibe-offset: 4px;
+$vibe-count: 10;
+$vibe-duration: 0.08;
 
 @keyframes vibe-wave {
   from {
     transform: translateY(0);
   }
+
   to {
-    transform: translateY( $vibe-offset );
+    transform: translateY($vibe-offset);
   }
 }
 
 .txtwav.vibe span {
-  display: inline-block;
-  animation-duration: #{$vibe-duration}s;
-  animation-name: vibe-wave;
-  animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-duration: #{$vibe-duration}s;
+  animation-iteration-count: infinite;
+  animation-name: vibe-wave;
+  display: inline-block;
 }
 
 @for $i from 0 to $vibe-count {
   .txtwav.vibe :nth-child( #{$vibe-count}n + #{$i} ) {
-      animation-delay : -#{($vibe-count - $i) * 2 * $vibe-duration / $vibe-count }s;
+    animation-delay: -#{($vibe-count - $i) * 2 * $vibe-duration / $vibe-count }s;
   }
 }
