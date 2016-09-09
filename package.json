@@ -1,6 +1,6 @@
 {
   "name": "txt.wav",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Text animation library",
   "main": "dist/js/txt.wav.js",
   "files": [
