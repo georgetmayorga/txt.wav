@@ -1,7 +1,7 @@
 # txt.wav
 
 ![npm version](https://badge.fury.io/js/txt.wav.svg)
-![Code Climate](https://codeclimate.com/github/still-life-studios/txt.wav/badges/gpa.svg)
+![Code Climate](https://codeclimate.com/github/still-life-studio/txt.wav/badges/gpa.svg)
 
 some weird text animations the internet deserves.
 
@@ -36,12 +36,12 @@ full example:
 <h1 class="txtwav slow">true freaks only</h1>
 ```
 
-## about Still Life Studios
+## about Still Life
 
-![still life studio
+![still life 
 logo](http://www.stilllife.studio/images/still_life_logo.png)
 
-txt.wav is maintained by Still Life Studios. 
+txt.wav is maintained by Still Life.
 
 we love open source software. see our other
 [projects](http://www.stilllife.studio/?utm_source=github#work) or [hire
