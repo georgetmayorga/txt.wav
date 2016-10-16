@@ -1,5 +1,6 @@
 # txt.wav
 
+[![CDNJS](https://img.shields.io/cdnjs/v/txt.wav.svg)](https://cdnjs.com/libraries/txt.wav)
 ![npm version](https://badge.fury.io/js/txt.wav.svg)
 ![Code Climate](https://codeclimate.com/github/still-life-studio/txt.wav/badges/gpa.svg)
 
