@@ -1,8 +1,8 @@
 # txt.wav
 
-[![CDNJS](https://img.shields.io/cdnjs/v/txt.wav.svg)](https://cdnjs.com/libraries/txt.wav)
-![npm version](https://badge.fury.io/js/txt.wav.svg)
+[![npm version](https://badge.fury.io/js/txt.wav.svg)](https://npmjs.com/package/txt.wav)
 ![Code Climate](https://codeclimate.com/github/still-life-studio/txt.wav/badges/gpa.svg)
+[![CDNJS](https://img.shields.io/cdnjs/v/txt.wav.svg)](https://cdnjs.com/libraries/txt.wav)
 
 some weird text animations the internet deserves.
 
