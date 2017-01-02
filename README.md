@@ -40,7 +40,7 @@ full example:
 ## about Still Life
 
 ![still life 
-logo](http://www.stilllife.studio/images/still_life_logo.png)
+logo](http://www.stilllife.studio/images/still-life-logo.svg)
 
 txt.wav is maintained by Still Life.
 
